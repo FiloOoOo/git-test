@@ -2,5 +2,13 @@ cd - ходим по папкам
 ls - смотрим в папку
 git init -  инициализация пустого репозитория в...
 git status - статус проекта
-git add -  добавить файл
-
+git add -  добавить файл в индекс
+git add . - довавить все файлы в папке в индекс
+git commit -m "commit"
+.gitignore - создание отдельного файла в VS, для игнорирования git папок или файлов
+git branch - в какой ветке находится  git
+git brench "name" - создание ветки
+git brench -D "name"- удаление ветки
+git checkout "name" - перейти в созданную ветку
+git checkout -b "name" - создает ветку и переходит в нее
+git merge "name" - добавляем файлы с ветки name в ветку master
